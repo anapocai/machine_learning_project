@@ -35,11 +35,11 @@ The dataset was split into two parts:
 
 ### 1. **Decision Tree for Dropout Prediction**
 - A decision tree classifier was used to predict the risk of dropout based on features such as academic performance, financial support, and others.
-- The accuracy of the model was evaluated using a correlation matrix and classification report.
-- The most important features for predicting dropouts were identified, including `Curricular units 2nd sem (approved)`, `Tuition fees up to date`, and others.
+- The accuracy of the model was evaluated using a confusion matrix and classification report.
+- The most important features for predicting dropouts were identified, including `Curricular units 2nd sem (grade)`, `Curricular units 2nd sem (approved)`, `Scholarship holder`, `Tuition fees up to date`, `Curricular units 1st sem (grade)`, `Curricular units 1st sem (approved)`.
   
-**correlation Matrix**:
-![Strong Features Analysis](corr_matrix.png)
+**Correlation Matrix**:
+![correlation matrix](corr_matrix.png)
 
 ### 2. **Graduation Probability**
 - The probability of students graduating was predicted using a decision tree, resulting in a probability score for each student.
